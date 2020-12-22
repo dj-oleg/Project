@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт ПДД</title>
+    <link rel="stylesheet" href="{% static "css/style.css" %}" />
+<body>
+    <h2>Тести ПДД</h2>
+    
+    <div class="header_general">
+    </div>
+    
+    <h1>Розділи ПДД</h1>
+
+    <ol class="square">
+        <li><a href="http://127.0.0.1:8000/testscard?test=test1">Обов'язки і права водіїв механічних транспортних засобів</a></li>
+        <li><a href="http://127.0.0.1:8000/testscard?test=test6">Рух транспортних засобів із спеціальними сигналами</a></li>
+        <li><a href="http://127.0.0.1:8000/testscard/?test=test11">Вимоги до осіб, які керують гужовим транспортом, і погоничів тварин</a></li>
+        <li><a href="http://127.0.0.1:8000/testscard/?test=test16">Обов'язки і права пішоходів</a></li>
+        <li><a href="http://127.0.0.1:8000/testscard/?test=test21">Вимоги до велосипедистів</a></li>
+    </ol>
+
+</body>
+</html>
+
+
