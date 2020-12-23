@@ -13,8 +13,10 @@
     </div>
    
     <br><div >{% for post in datetest %}
+    <div class=posts>
         <div>{{post.0|safe}}</div><br>
-        <div class="answers">{{ post.1|safe }}</div>        
+        <div class="answers">{{ post.1|safe }}</div>
+    </div>    
         {% endfor %}</div>
     <form>
         <button type="button" onclick="CheckAnswer()">Перевірити</button>
