@@ -1,3 +1,5 @@
+
+document.getElementsByClaassName('posts')[1].style.display='none';
 function CheckAnswer(){
     var answers = document.getElementsByName("answer")
     var counter = 1
